@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Joke Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Random Joke Generator</h1>
+        <div class="joke-container">
+            <p id="joke-text">Click the button to get a joke!</p>
+            <p id="joke-punchline" class="hidden"></p>
+        </div>
+        <button id="get-joke-btn">Get New Joke</button>
+        <div class="joke-category">
+            <p>Select joke category:</p>
+            <div class="categories">
+                <button class="category-btn active" data-category="any">Any</button>
+                <button class="category-btn" data-category="programming">Programming</button>
+                <button class="category-btn" data-category="misc">Misc</button>
+                <button class="category-btn" data-category="pun">Pun</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Using <a href="https://jokeapi.dev/" target="_blank">JokeAPI</a> | Created by 4lecboy</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
